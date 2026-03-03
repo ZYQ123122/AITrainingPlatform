@@ -1,0 +1,221 @@
+{
+  "groups": [
+    {
+      "name": "storage",
+      "type": "net.maku.storage.properties.StorageProperties",
+      "sourceType": "net.maku.storage.properties.StorageProperties"
+    },
+    {
+      "name": "storage.aliyun",
+      "type": "net.maku.storage.properties.AliyunStorageProperties",
+      "sourceType": "net.maku.storage.properties.StorageProperties",
+      "sourceMethod": "public net.maku.storage.properties.AliyunStorageProperties aliyunStorageProperties() "
+    },
+    {
+      "name": "storage.config",
+      "type": "net.maku.storage.properties.StorageProperties$StorageConfig",
+      "sourceType": "net.maku.storage.properties.StorageProperties",
+      "sourceMethod": "public net.maku.storage.properties.StorageProperties.StorageConfig getConfig() "
+    },
+    {
+      "name": "storage.huawei",
+      "type": "net.maku.storage.properties.HuaweiStorageProperties",
+      "sourceType": "net.maku.storage.properties.StorageProperties",
+      "sourceMethod": "public net.maku.storage.properties.HuaweiStorageProperties huaweiStorageProperties() "
+    },
+    {
+      "name": "storage.local",
+      "type": "net.maku.storage.properties.LocalStorageProperties",
+      "sourceType": "net.maku.storage.properties.StorageProperties",
+      "sourceMethod": "public net.maku.storage.properties.LocalStorageProperties localStorageProperties() "
+    },
+    {
+      "name": "storage.minio",
+      "type": "net.maku.storage.properties.MinioStorageProperties",
+      "sourceType": "net.maku.storage.properties.StorageProperties",
+      "sourceMethod": "public net.maku.storage.properties.MinioStorageProperties minioStorageProperties() "
+    },
+    {
+      "name": "storage.qiniu",
+      "type": "net.maku.storage.properties.QiniuStorageProperties",
+      "sourceType": "net.maku.storage.properties.StorageProperties",
+      "sourceMethod": "public net.maku.storage.properties.QiniuStorageProperties qiniuStorageProperties() "
+    },
+    {
+      "name": "storage.tencent",
+      "type": "net.maku.storage.properties.TencentStorageProperties",
+      "sourceType": "net.maku.storage.properties.StorageProperties",
+      "sourceMethod": "public net.maku.storage.properties.TencentStorageProperties tencentStorageProperties() "
+    }
+  ],
+  "properties": [
+    {
+      "name": "storage.aliyun",
+      "type": "net.maku.storage.properties.AliyunStorageProperties",
+      "description": "阿里云配置项",
+      "sourceType": "net.maku.storage.properties.StorageProperties"
+    },
+    {
+      "name": "storage.aliyun.access-key-id",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.AliyunStorageProperties"
+    },
+    {
+      "name": "storage.aliyun.access-key-secret",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.AliyunStorageProperties"
+    },
+    {
+      "name": "storage.aliyun.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.AliyunStorageProperties"
+    },
+    {
+      "name": "storage.aliyun.end-point",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.AliyunStorageProperties"
+    },
+    {
+      "name": "storage.config.domain",
+      "type": "java.lang.String",
+      "description": "访问域名",
+      "sourceType": "net.maku.storage.properties.StorageProperties$StorageConfig"
+    },
+    {
+      "name": "storage.config.prefix",
+      "type": "java.lang.String",
+      "description": "配置路径前缀",
+      "sourceType": "net.maku.storage.properties.StorageProperties$StorageConfig"
+    },
+    {
+      "name": "storage.config.type",
+      "type": "net.maku.storage.enums.StorageTypeEnum",
+      "description": "存储类型",
+      "sourceType": "net.maku.storage.properties.StorageProperties$StorageConfig"
+    },
+    {
+      "name": "storage.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否开启存储",
+      "sourceType": "net.maku.storage.properties.StorageProperties"
+    },
+    {
+      "name": "storage.huawei",
+      "type": "net.maku.storage.properties.HuaweiStorageProperties",
+      "description": "华为云配置项",
+      "sourceType": "net.maku.storage.properties.StorageProperties"
+    },
+    {
+      "name": "storage.huawei.access-key",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.HuaweiStorageProperties"
+    },
+    {
+      "name": "storage.huawei.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.HuaweiStorageProperties"
+    },
+    {
+      "name": "storage.huawei.end-point",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.HuaweiStorageProperties"
+    },
+    {
+      "name": "storage.huawei.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.HuaweiStorageProperties"
+    },
+    {
+      "name": "storage.local",
+      "type": "net.maku.storage.properties.LocalStorageProperties",
+      "description": "本地配置项",
+      "sourceType": "net.maku.storage.properties.StorageProperties"
+    },
+    {
+      "name": "storage.local.path",
+      "type": "java.lang.String",
+      "description": "本地存储路径",
+      "sourceType": "net.maku.storage.properties.LocalStorageProperties"
+    },
+    {
+      "name": "storage.local.url",
+      "type": "java.lang.String",
+      "description": "资源起始路径",
+      "sourceType": "net.maku.storage.properties.LocalStorageProperties"
+    },
+    {
+      "name": "storage.minio",
+      "type": "net.maku.storage.properties.MinioStorageProperties",
+      "description": "Minio配置项",
+      "sourceType": "net.maku.storage.properties.StorageProperties"
+    },
+    {
+      "name": "storage.minio.access-key",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.MinioStorageProperties"
+    },
+    {
+      "name": "storage.minio.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.MinioStorageProperties"
+    },
+    {
+      "name": "storage.minio.end-point",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.MinioStorageProperties"
+    },
+    {
+      "name": "storage.minio.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.MinioStorageProperties"
+    },
+    {
+      "name": "storage.qiniu",
+      "type": "net.maku.storage.properties.QiniuStorageProperties",
+      "description": "七牛云配置项",
+      "sourceType": "net.maku.storage.properties.StorageProperties"
+    },
+    {
+      "name": "storage.qiniu.access-key",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.QiniuStorageProperties"
+    },
+    {
+      "name": "storage.qiniu.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.QiniuStorageProperties"
+    },
+    {
+      "name": "storage.qiniu.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.QiniuStorageProperties"
+    },
+    {
+      "name": "storage.tencent",
+      "type": "net.maku.storage.properties.TencentStorageProperties",
+      "description": "腾讯云配置项",
+      "sourceType": "net.maku.storage.properties.StorageProperties"
+    },
+    {
+      "name": "storage.tencent.access-key",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.TencentStorageProperties"
+    },
+    {
+      "name": "storage.tencent.bucket-name",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.TencentStorageProperties"
+    },
+    {
+      "name": "storage.tencent.region",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.TencentStorageProperties"
+    },
+    {
+      "name": "storage.tencent.secret-key",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.storage.properties.TencentStorageProperties"
+    }
+  ],
+  "hints": []
+}

@@ -1,0 +1,42 @@
+{
+  "groups": [
+    {
+      "name": "spring.mqtt",
+      "type": "net.maku.iot.communication.mqtt.config.MqttConfig",
+      "sourceType": "net.maku.iot.communication.mqtt.config.MqttConfig"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.mqtt.client-id",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.iot.communication.mqtt.config.MqttConfig"
+    },
+    {
+      "name": "spring.mqtt.default-topic",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.iot.communication.mqtt.config.MqttConfig"
+    },
+    {
+      "name": "spring.mqtt.host",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.iot.communication.mqtt.config.MqttConfig"
+    },
+    {
+      "name": "spring.mqtt.mqtt-message-handler-factory",
+      "type": "net.maku.iot.communication.mqtt.factory.MqttMessageHandlerFactory",
+      "sourceType": "net.maku.iot.communication.mqtt.config.MqttConfig"
+    },
+    {
+      "name": "spring.mqtt.password",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.iot.communication.mqtt.config.MqttConfig"
+    },
+    {
+      "name": "spring.mqtt.username",
+      "type": "java.lang.String",
+      "sourceType": "net.maku.iot.communication.mqtt.config.MqttConfig"
+    }
+  ],
+  "hints": []
+}

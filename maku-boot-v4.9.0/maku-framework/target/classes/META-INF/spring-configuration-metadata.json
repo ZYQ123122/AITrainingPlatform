@@ -1,0 +1,41 @@
+{
+  "groups": [
+    {
+      "name": "maku.security",
+      "type": "net.maku.framework.security.properties.SecurityProperties",
+      "sourceType": "net.maku.framework.security.properties.SecurityProperties"
+    },
+    {
+      "name": "maku.xss",
+      "type": "net.maku.framework.common.xss.XssProperties",
+      "sourceType": "net.maku.framework.common.xss.XssProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "maku.security.access-token-expire",
+      "type": "java.lang.Integer",
+      "description": "accessToken 过期时间(单位：秒)，默认2小时",
+      "sourceType": "net.maku.framework.security.properties.SecurityProperties"
+    },
+    {
+      "name": "maku.security.refresh-token-expire",
+      "type": "java.lang.Integer",
+      "description": "refreshToken 过期时间(单位：秒)，默认14天",
+      "sourceType": "net.maku.framework.security.properties.SecurityProperties"
+    },
+    {
+      "name": "maku.xss.enabled",
+      "type": "java.lang.Boolean",
+      "description": "是否开启 XSS",
+      "sourceType": "net.maku.framework.common.xss.XssProperties"
+    },
+    {
+      "name": "maku.xss.exclude-urls",
+      "type": "java.util.List<java.lang.String>",
+      "description": "排除的URL列表",
+      "sourceType": "net.maku.framework.common.xss.XssProperties"
+    }
+  ],
+  "hints": []
+}
