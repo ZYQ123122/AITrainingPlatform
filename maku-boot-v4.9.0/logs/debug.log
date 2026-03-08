@@ -1,0 +1,13 @@
+2026-03-08 11:01:04.793 [main] DEBUG net.maku.ServerApplication - Running with Spring Boot v3.4.7, Spring v6.2.8
+2026-03-08 11:05:10.989 [main] DEBUG net.maku.ServerApplication - Running with Spring Boot v3.4.7, Spring v6.2.8
+2026-03-08 11:05:18.416 [main] DEBUG n.m.f.security.filter.AuthenticationTokenFilter - Filter 'authenticationTokenFilter' configured for use
+2026-03-08 11:05:18.416 [main] DEBUG net.maku.framework.common.xss.XssFilter - Filter 'xssFilter' configured for use
+2026-03-08 11:05:22.444 [ForkJoinPool.commonPool-worker-1] DEBUG net.maku.system.dao.SysDictDataDao.selectList - ==>  Preparing: SELECT id,dict_type_id,dict_label,dict_value,label_class,remark,sort,tenant_id,creator,create_time,updater,update_time,version,deleted FROM sys_dict_data WHERE deleted=0
+2026-03-08 11:05:22.468 [ForkJoinPool.commonPool-worker-1] DEBUG net.maku.system.dao.SysDictDataDao.selectList - ==> Parameters: 
+2026-03-08 11:05:22.588 [ForkJoinPool.commonPool-worker-1] DEBUG net.maku.system.dao.SysDictDataDao.selectList - <==      Total: 81
+2026-03-08 11:05:22.609 [ForkJoinPool.commonPool-worker-1] DEBUG net.maku.system.dao.SysDictTypeDao.selectList - ==>  Preparing: SELECT id,dict_type,dict_name,remark,sort,dict_source,dict_sql,pid,has_child,tenant_id,creator,create_time,updater,update_time,version,deleted FROM sys_dict_type WHERE deleted=0
+2026-03-08 11:05:22.609 [ForkJoinPool.commonPool-worker-1] DEBUG net.maku.system.dao.SysDictTypeDao.selectList - ==> Parameters: 
+2026-03-08 11:05:22.622 [ForkJoinPool.commonPool-worker-1] DEBUG net.maku.system.dao.SysDictTypeDao.selectList - <==      Total: 25
+2026-03-08 11:05:23.212 [main] DEBUG net.maku.quartz.dao.ScheduleJobDao.selectList - ==>  Preparing: SELECT id,job_name,job_group,bean_name,method,params,cron_expression,status,concurrent,remark,creator,create_time,updater,update_time,version,deleted FROM schedule_job WHERE deleted=0
+2026-03-08 11:05:23.212 [main] DEBUG net.maku.quartz.dao.ScheduleJobDao.selectList - ==> Parameters: 
+2026-03-08 11:05:23.216 [main] DEBUG net.maku.quartz.dao.ScheduleJobDao.selectList - <==      Total: 1

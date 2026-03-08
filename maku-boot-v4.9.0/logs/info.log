@@ -1,0 +1,77 @@
+2026-03-08 11:01:04.678 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-08 11:01:04.793 [main] INFO  net.maku.ServerApplication - Starting ServerApplication using Java 23.0.2 with PID 25420 (D:\study-projectv4.9.0_00\maku-boot-v4.9.0\maku-server\target\classes started by l in D:\study-projectv4.9.0_00\maku-boot-v4.9.0)
+2026-03-08 11:01:04.795 [main] INFO  net.maku.ServerApplication - The following 1 profile is active: "dev"
+2026-03-08 11:01:07.962 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-08 11:01:07.967 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-08 11:01:08.166 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 171 ms. Found 0 Redis repository interfaces.
+2026-03-08 11:01:10.385 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-08 11:01:10.412 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-08 11:01:10.414 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-08 11:01:10.415 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2026-03-08 11:01:10.683 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-08 11:01:10.683 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5785 ms
+2026-03-08 11:01:11.068 [main] INFO  org.redisson.Version - Redisson 3.21.3
+2026-03-08 11:01:11.623 [main] INFO  org.apache.catalina.core.StandardService - Stopping service [Tomcat]
+2026-03-08 11:01:11.661 [main] INFO  o.s.b.a.logging.ConditionEvaluationReportLogger - 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2026-03-08 11:05:10.867 [background-preinit] INFO  org.hibernate.validator.internal.util.Version - HV000001: Hibernate Validator 8.0.2.Final
+2026-03-08 11:05:10.988 [main] INFO  net.maku.ServerApplication - Starting ServerApplication using Java 23.0.2 with PID 14860 (D:\study-projectv4.9.0_00\maku-boot-v4.9.0\maku-server\target\classes started by l in D:\study-projectv4.9.0_00\maku-boot-v4.9.0)
+2026-03-08 11:05:10.989 [main] INFO  net.maku.ServerApplication - The following 1 profile is active: "dev"
+2026-03-08 11:05:14.319 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Multiple Spring Data modules found, entering strict repository configuration mode
+2026-03-08 11:05:14.324 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2026-03-08 11:05:14.528 [main] INFO  o.s.d.r.config.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 175 ms. Found 0 Redis repository interfaces.
+2026-03-08 11:05:16.752 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port 8080 (http)
+2026-03-08 11:05:16.781 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-8080"]
+2026-03-08 11:05:16.784 [main] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2026-03-08 11:05:16.785 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/10.1.42]
+2026-03-08 11:05:17.009 [main] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2026-03-08 11:05:17.009 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 5906 ms
+2026-03-08 11:05:17.392 [main] INFO  org.redisson.Version - Redisson 3.21.3
+2026-03-08 11:05:17.962 [redisson-netty-2-5] INFO  o.r.connection.pool.MasterPubSubConnectionPool - 1 connections initialized for localhost/127.0.0.1:6379
+2026-03-08 11:05:18.058 [redisson-netty-2-20] INFO  org.redisson.connection.pool.MasterConnectionPool - 24 connections initialized for localhost/127.0.0.1:6379
+2026-03-08 11:05:18.542 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Starting...
+2026-03-08 11:05:19.328 [main] INFO  com.zaxxer.hikari.pool.HikariPool - master - Added connection com.mysql.cj.jdbc.ConnectionImpl@22decfa2
+2026-03-08 11:05:19.330 [main] INFO  com.zaxxer.hikari.HikariDataSource - master - Start completed.
+2026-03-08 11:05:19.333 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource - add a datasource named [master] success
+2026-03-08 11:05:19.333 [main] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource initial loaded [1] datasource,primary datasource named [master]
+2026-03-08 11:05:23.021 [main] INFO  org.quartz.impl.StdSchedulerFactory - Using default implementation for ThreadExecutor
+2026-03-08 11:05:23.042 [main] INFO  org.quartz.core.SchedulerSignalerImpl - Initialized Scheduler Signaller of type: class org.quartz.core.SchedulerSignalerImpl
+2026-03-08 11:05:23.043 [main] INFO  org.quartz.core.QuartzScheduler - Quartz Scheduler v.2.3.2 created.
+2026-03-08 11:05:23.048 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - Using db table-based data access locking (synchronization).
+2026-03-08 11:05:23.054 [main] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - JobStoreCMT initialized.
+2026-03-08 11:05:23.055 [main] INFO  org.quartz.core.QuartzScheduler - Scheduler meta-data: Quartz Scheduler (v2.3.2) 'MakuScheduler' with instanceId 'administrator1772939123025'
+  Scheduler class: 'org.quartz.core.QuartzScheduler' - running locally.
+  NOT STARTED.
+  Currently in standby mode.
+  Number of jobs executed: 0
+  Using thread pool 'org.quartz.simpl.SimpleThreadPool' - with 20 threads.
+  Using job-store 'org.springframework.scheduling.quartz.LocalDataSourceJobStore' - which supports persistence. and is clustered.
+
+2026-03-08 11:05:23.056 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler 'MakuScheduler' initialized from an externally provided properties instance.
+2026-03-08 11:05:23.056 [main] INFO  org.quartz.impl.StdSchedulerFactory - Quartz scheduler version: 2.3.2
+2026-03-08 11:05:23.059 [main] INFO  org.quartz.core.QuartzScheduler - JobFactory set to: org.springframework.scheduling.quartz.AdaptableJobFactory@1b3a1e42
+2026-03-08 11:05:24.489 [main] INFO  o.s.s.c.a.a.c.InitializeAuthenticationProviderBeanManagerConfigurer$InitializeAuthenticationProviderManagerConfigurer - Found 3 AuthenticationProvider beans, with names [daoAuthenticationProvider, mobileAuthenticationProvider, thirdAuthenticationProvider]. Global Authentication Manager will not be configured with AuthenticationProviders. Consider publishing a single AuthenticationProvider bean, or wiring your Providers directly using the DSL.
+2026-03-08 11:05:24.490 [main] INFO  o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer - Global AuthenticationManager configured with UserDetailsService bean with name userDetailsServiceImpl
+2026-03-08 11:05:25.101 [main] INFO  o.s.b.actuate.endpoint.web.EndpointLinksResolver - Exposing 1 endpoint beneath base path '/actuator'
+2026-03-08 11:05:25.591 [main] INFO  com.fhs.common.spring.SpringContextUtil - ------SpringContextUtil setApplicationContext-------
+2026-03-08 11:05:26.494 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-8080"]
+2026-03-08 11:05:26.512 [main] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port 8080 (http) with context path '/'
+2026-03-08 11:05:26.515 [main] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Will start Quartz Scheduler [MakuScheduler] in 10 seconds
+2026-03-08 11:05:26.534 [main] INFO  net.maku.ServerApplication - Started ServerApplication in 16.561 seconds (process running for 18.307)
+2026-03-08 11:05:36.531 [Quartz Scheduler [MakuScheduler]] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Starting Quartz Scheduler now, after delay of 10 seconds
+2026-03-08 11:05:36.548 [Quartz Scheduler [MakuScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - ClusterManager: detected 1 failed or restarted instances.
+2026-03-08 11:05:36.548 [Quartz Scheduler [MakuScheduler]] INFO  o.s.scheduling.quartz.LocalDataSourceJobStore - ClusterManager: Scanning for instance "administrator1772789291860"'s failed in-progress jobs.
+2026-03-08 11:05:36.562 [Quartz Scheduler [MakuScheduler]] INFO  org.quartz.core.QuartzScheduler - Scheduler MakuScheduler_$_administrator1772939123025 started.
+2026-03-08 11:08:52.576 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler MakuScheduler_$_administrator1772939123025 paused.
+2026-03-08 11:08:52.580 [SpringApplicationShutdownHook] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-08 11:08:52.588 [tomcat-shutdown] INFO  o.s.boot.web.embedded.tomcat.GracefulShutdown - Graceful shutdown complete
+2026-03-08 11:08:52.597 [SpringApplicationShutdownHook] INFO  o.s.scheduling.quartz.SchedulerFactoryBean - Shutting down Quartz Scheduler
+2026-03-08 11:08:52.597 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler MakuScheduler_$_administrator1772939123025 shutting down.
+2026-03-08 11:08:52.597 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler MakuScheduler_$_administrator1772939123025 paused.
+2026-03-08 11:08:52.598 [SpringApplicationShutdownHook] INFO  org.quartz.core.QuartzScheduler - Scheduler MakuScheduler_$_administrator1772939123025 shutdown complete.
+2026-03-08 11:08:52.606 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource start closing ....
+2026-03-08 11:08:52.610 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown initiated...
+2026-03-08 11:08:52.615 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource - master - Shutdown completed.
+2026-03-08 11:08:52.615 [SpringApplicationShutdownHook] INFO  c.b.d.d.destroyer.DefaultDataSourceDestroyer - dynamic-datasource close the datasource named [master] success,
+2026-03-08 11:08:52.615 [SpringApplicationShutdownHook] INFO  c.b.dynamic.datasource.DynamicRoutingDataSource - dynamic-datasource all closed success,bye
